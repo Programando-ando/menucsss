@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+  #im1{
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 400px;
+    background-color: darkmagenta;
+    border: 3px solid black;
+      }
+      #c1{
+        width: 70px;
+        height: 70px;
+        background-color: peachpuff;
+        position: absolute;
+        top: 40px;
+        left: 450px;
+        z-index: 1;
+      }
+      #c2{
+            width: 70px;
+            height: 70px;
+            background-color: peachpuff;
+            position: absolute;
+            top: 40px;
+            right: 450px;
+            z-index: 1;
+          }
+          #c3{
+            width: 70px;
+            height: 70px;
+            background-color: peachpuff;
+            position: absolute;
+            bottom: 400px;
+            right: 450px;
+            z-index: 1;
+          }
+          #c4{
+            width: 70px;
+            height: 70px;
+            background-color: peachpuff;
+            position: absolute;
+            bottom: 400px;
+           left: 450px;
+            z-index: 1;
+          }
+          #im2{
+            margin: auto;
+            display: block;
+            width: 800px;
+            height: 300px;
+            background-color: darkmagenta;
+            border: 3px solid black;
+          }
+      #cir1{
+        width: 90px;
+        height: 90px;
+        background-color: peachpuff;
+        position: absolute;
+        border-radius: 0 0 150px 150px;
+        bottom: 5px;
+       left: 450px;
+        z-index: 1;
+      }
+      #cir2{
+        width: 90px;
+        height: 90px;
+        background-color: peachpuff;
+        position: absolute;
+        border-radius: 150px 150px 0 0;
+        bottom: 90px;
+       left: 540px;
+        z-index: 1;
+      }
+      #cir3{
+        width: 90px;
+        height: 90px;
+        background-color: peachpuff;
+        position: absolute;
+        border-radius: 0 0 150px 150px;
+        bottom: 5px;
+       left: 630px;
+        z-index: 1;
+      }
+      #im3{
+        margin: auto;
+            display: block;
+            width: 800px;
+            height: 500px;
+            background-color: lightsalmon;
+            border: 3px solid black;
+      }
+      #cu1{
+        width: 150px;
+        height: 150px;
+        background-color: peachpuff;
+        position: relative;
+       top: 300px;
+       left: 350px;
+        z-index: 1;
+      }
+      #cu2{
+        width: 100px;
+        height: 100px;
+        background-color:chocolate;
+        position: relative;
+        transform: rotate(20deg);
+       top: 35px;
+       left: 420px;
+        z-index: 1;
+      }
+      #cu3{
+        width: 70px;
+        height: 70px;
+        background-color:chocolate;
+        position: relative;
+        transform: rotate(60deg);
+       bottom: 30px;
+       left: 330px;
+        z-index: 1;
+      }
+      #im4{
+        margin: auto;
+            display: block;
+            width: 650px;
+            height: 450px;
+            background-color: rgb(101, 53, 233);
+            border: 3px solid black;
+      }
+      #k1{
+        width: 400px;
+        height: 400px;
+        background-color: rgb(28, 21, 95);
+        position: relative;
+      top: 40px;
+       left: 100px;
+        z-index: 1;
+      }
+      #k2{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(97, 34, 139);
+        position: relative;
+        transform: rotate(60deg);
+      bottom: 250px;
+       left: 200px;
+        z-index: 1;
+      }
+      #k3{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(208, 203, 223);
+        position: relative;
+        transform: rotate(50deg);
+      bottom: 450px;
+       left: 250px;
+        z-index: 1;
+      }
+      #m5{
+        margin: auto;
+        display: block;
+        width: 800px;
+        height: 500px;
+        background-color: lightsalmon;
+        border: 3px solid black;
+      }
+      #j2{
+        width: 600px;
+        height: 350px;
+        background-color: rgb(28, 21, 95);
+        position: relative;
+    top: 130px;
+       left: 100px;
+        z-index: 1;  
+      }
+      #j3{
+        width: 300px;
+        height: 300px;
+        background-color: blanchedalmond;
+        position: relative;
+        border-radius: 100%;
+        top: -200px;
+       left: 250px;
+        z-index: 1;  
+      }

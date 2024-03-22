@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s all ease-in-out;
+}
+
+#color2:hover{
+    background: linear-gradient(blue,purple, pink);
+    background-clip: text;
+    color: transparent;
+transform: scale(1.1) translate(30);
+letter-spacing: 5px;
+    }
+#color1:hover{
+    color: red;
+    transform: scale(1.1) translate(20);
+}
+
+#Family{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family:Micro5;
+    src: url(Micro_5/Micro5-Regular.ttf);
+}
+
+#fuente{
+    font-family: Micro5;
+}
+
+#tamaño1{
+font-size: 10px;
+}
+  
+#tamaño2{
+    font-size: 0.3pt;
+}
+
+#style1{
+font-style: italic;
+}
+
+#style2{
+font-style: normal;
+}
+
+#style3{
+    font-style: oblique;
+}
+
+#fontw1{
+    font-weight: bold;
+}
+
+#fontw2{
+    font-weight: lighter;
+}
+
+#fontw3{
+    font-weight: 1000;
+}
+
+#transform1{
+text-transform: capitalize;
+}
+
+#transform2{
+text-transform: lowercase;
+}
+
+#tranform3{
+text-transform: inherit;
+}
+
+#decor1{
+text-decoration: none;
+}
+
+#decor2{
+text-decoration: underline;
+}
+
+#decor3{
+text-decoration: overline;
+}
+
+#decor4{
+    text-decoration: line-through;
+}
+
+#shadow1{
+text-shadow: 0 0 5px blue;
+}
+
+#shadow2{
+text-shadow: -5px -5px 0px yellow ;
+line-height: 0.5;
+}
+
+#aling1{
+    text-align: left;
+    line-height: 1;
+}
+
+#aling2{
+    text-align: right;
+    line-height: 1.5;
+}
+
+#aling3{
+    text-align: justify;
+    line-height: 2;
+}
+
+#aling4{
+    text-align: center;
+    line-height: 2.5;
+}
+
+#spacing1{
+    letter-spacing: 10px;
+}
+
+#spacing2{
+    letter-spacing: 20px;
+}
+
+#word1{
+    word-spacing: 10px;
+}
+
+#word2{
+    word-spacing: 20px;
+}
+

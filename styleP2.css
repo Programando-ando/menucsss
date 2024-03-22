@@ -1,0 +1,254 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+   font-size: 50px;
+   text-align: center;
+   background: rgb(14,255,204);
+   background: linear-gradient(90deg, rgba(14,255,204,1) 46%, rgba(255,252,0,1) 100%);
+}
+
+#papa{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+}
+.hijo{
+   width: 100px;
+   height: 100px;
+   background: aqua;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   margin: 10px;
+}
+
+
+
+#papa1{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-direction: column;
+}
+#papa2{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-direction: column-reverse;
+}
+#papa3{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-direction: row;
+}
+#papa4{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+
+#papa5{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-wrap: nowrap;
+}
+#papa6{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-wrap: wrap;
+}
+#papa7{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   flex-wrap: wrap-reverse ;
+}
+
+
+
+#papa8{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: center;
+}
+#papa9{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: flex-start;
+}
+#papa10{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: flex-end;
+}
+#papa11{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: space-around ;
+}
+#papa12{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: space-between ;
+}
+
+
+
+#papa13{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-items: center;
+}
+#papa14{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-items: flex-start;
+}
+#papa15{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-items: flex-end;
+}
+#papa16{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-items: stretch;
+}
+#papa17{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-items: baseline;
+}
+
+
+
+#papa18{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-content: flex-start;
+}
+#papa19{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-content: flex-end;
+}
+#papa20{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-content: center;
+}
+#papa21{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-content: space-between;
+}
+#papa22{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   align-content: space-around;
+}
+
+
+#papa23{
+   width: 400px;
+   height: 400px;
+   margin:  50px auto;
+   color: black;
+   background: blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

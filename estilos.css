@@ -1,0 +1,50 @@
+@font-face{
+font-family: madimi;
+src: url(fot/MadimiOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Madimi;
+    transition: 1s all ease;
+}
+
+body{
+    text-align: center;
+    color: white;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(141,0,255,1) 100%);
+}
+
+h1{
+    font-size: 60px;
+    text-shadow: 0 0 10px red;
+}
+
+h2{
+    font-size: 250%;
+    text-shadow: 0 0 10px yellow;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+a:hover{
+    box-shadow: 0 0 5px white;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    transform: scale(1.2);
+}

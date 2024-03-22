@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background: rgb(14,255,204);
+background: linear-gradient(90deg, rgba(14,255,204,1) 46%, rgba(0,255,42,1) 100%);
+}
+
+div{
+   width: 350px;
+ height: 350px;
+background: grey;
+border: 20px solid white;
+box-shadow: 0px 50px 20px black;
+margin :300px;
+padding: 50px;
+background: rgb(14,255,204);
+background: linear-gradient(90deg, rgba(14,255,204,1) 46%, rgba(255,252,0,1) 100%);
+
+} 
+ #box1{
+  
+width: 10em;
+ height: 10em;
+
+ }
+ 
+  #box2{
+    
+width: 10ex;
+ height: 10ex;
+
+ }
+ 
+   #box3{
+      
+width: 10ch;
+ height: 10ch;
+ 
+ }
+ 
+    #box4{
+  
+width: 10rem;
+ height: 10rem;
+
+ }
+ 
+    #box5{
+  
+width: 10%;
+ height: 10%;
+
+ }
+ 
+   
+ 
+   #box6{
+    
+width: 10px;
+ height: 10px;
+
+ }
+ 
+   #box7{
+    
+width: 10cm;
+ height: 10cm;
+
+ }
+ 
+
+ 
+     #box8{
+    
+width: 10mm;
+ height: 10mm;
+ }
+ 
+      #box9{
+         width: 10Q;
+ height: 10Q;
+     }
+ 
+      #box10{
+    width: 10in;
+ height: 10in;
+ }
+ 
+       #box11{
+    width: 10pc;
+ height: 10pc;
+ }
+ 
+   #box12{
+    
+width: 10pt;
+ height: 10pt;
+
+ }

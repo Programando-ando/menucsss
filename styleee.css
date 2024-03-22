@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+    transition: 1s all ease;
+
+ }
+ 
+ div{
+    width: 100px;
+  height: 100px;
+  background: yellow;
+ border: 20px solid black;
+ box-shadow: -8px -5px 15px black;
+ margin :25px;
+padding: 20px;
+ display: inline-block;
+ } 
+ 
+ 
+  .caja4{
+   background: rgba(225, 0, 0, 0.7);
+   position: relative;
+   top: 100px;
+   left: 100px
+  }
+  
+  .caja8{
+    background: rgba(0, 225, 0, 0.5);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+  
+    .caja1 {
+      background: rgba(225, 0, 0, 0.7);
+      position:fixed;
+      top: 100px;
+      left: 100px;
+    }
